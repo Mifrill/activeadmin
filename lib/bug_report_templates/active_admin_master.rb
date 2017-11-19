@@ -20,9 +20,7 @@ gemfile(true) do
 
   gem 'sass-rails'
   gem 'sqlite3', platform: :mri
-  gem 'activerecord-jdbcsqlite3-adapter',
-      git: 'https://github.com/jruby/activerecord-jdbc-adapter',
-      platform: :jruby
+  gem 'activerecord-jdbcsqlite3-adapter', platform: :jruby
 end
 
 require 'active_record'
